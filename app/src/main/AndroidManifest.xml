@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiTasker">
-        <activity android:name=".TaskActivity"></activity>
+        <activity android:name=".displayActivity"></activity>
+        <activity android:name=".SignUpActivity2" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".TaskActivity" />
         <activity
-            android:name=".login"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:name=".loginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
